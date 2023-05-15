@@ -89,7 +89,6 @@ function makeWork(arrOfArr, func) {
 		if (sum > maxWorkerResult) {
 			maxWorkerResult = sum;
 		}
-		console.log(arrOfArr[i], sum, maxWorkerResult);
 	}
 
 	return maxWorkerResult;
